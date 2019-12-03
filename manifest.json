@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+ 
+    "name": "VK Sticker interpretator",
+    "description": "Replace stickers by strings",
+    "version": "0.1",
+
+    "permissions": [
+        "declarativeContent",
+        "storage"
+    ],
+
+/*    "page_action": {
+          "default_popup": "popup.html"
+        },
+*/
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "MyPop"
+    },
+
+    "icons": { 
+        "128": "icon.png" 
+    },
+
+    "content_scripts":[
+        {
+            "matches": ["https://vk.com/im*"],
+            "js": ["script.js"],
+            "run_at": "document_end"
+        }
+    ]
+
+}
