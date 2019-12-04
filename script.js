@@ -1,10 +1,8 @@
-
-
 // Select the node that will be observed for mutations
-const targetNode =  document.querySelector("._im_peer_history");
+const targetNode = document.querySelector("._im_peer_history");
 
 // Options for the observer (which mutations to observe)
-const config = { attributes: false, childList: false, subtree: false };
+const config = { attributes: false, childList: true, subtree: false };
 
 // Callback function to execute when mutations are observed
 const callback = function(mutationsList, observer) {

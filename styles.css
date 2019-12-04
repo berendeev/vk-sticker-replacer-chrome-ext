@@ -1,0 +1,20 @@
+body {
+    min-width: 300px;
+    max-width: 100%;
+}
+
+.interactive {
+    width: 232px;
+    height: 48px;
+    float: left;
+    border: solid 1px black;
+}
+
+.assigned_value {
+    margin-bottom: 5px;
+}
+
+.sticker_img {
+    float: left;
+    border: solid 1px red;
+}
