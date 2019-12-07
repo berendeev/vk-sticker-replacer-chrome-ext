@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "VK Sticker interpretator",
     "description": "Replace stickers by strings",
-    "version": "0.1",
+    "version": "0.2",
     "permissions": [
         "declarativeContent",
         "storage"
